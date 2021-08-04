@@ -1,0 +1,127 @@
+
+
+
+
+.contentcheckbox {
+  width: 1fr;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.centerplease {
+  margin: 0 auto;
+  max-width: 270px;
+  font-size: 40px;
+}
+
+/*Question*/
+.q {
+
+}
+.question {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  position: relative;
+
+  color:#fff;
+  margin: 0;
+  padding: 20px 20px 20px 80px;
+  display: block;
+  width:100%;
+  cursor: pointer;
+
+  align-items: center;
+  border-bottom: 3px solid #fff;
+  height: 100px;
+}
+
+.question:hover {
+
+  color:#fff;
+}
+/*Answer*/
+.answers {
+  font-family: 'Noto Sans KR', sans-serif;
+  max-width: 900px;
+  justify-content: center;
+  padding: 0px 15px;
+  margin: 5px 0;
+  width:100%!important;
+  height: 0;
+  overflow: hidden;
+  z-index: -1;
+  position: relative;
+  opacity: 0;
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+
+}
+
+.text {
+  font-size: 20px;
+  line-height: 1.7em;
+  padding-bottom: 20px;
+}
+.caption {
+  font-size: 12px;
+}
+
+.questions:checked ~ .answers{
+  height: auto;
+  opacity: 1;
+  padding: 15px;
+
+}
+
+/*FAQ Toggle*/
+.plus {
+  color:#fff;
+  position: absolute;
+  margin-left: 30px;
+  z-index: 5;
+  font-size: 2.6em;
+  line-height: 180%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.questions:checked ~ .plus {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+
+}
+.questions:checked ~ {
+    border-bottom: 0px solid;
+}
+
+.questions {
+  display: none;
+
+}
+
+.grid-container-checkbox-4 {
+  padding: 0px;
+  font-size:small;
+}
+.grid-container-checkbox-3 {
+  padding: 0px;
+  font-size:small;
+}
+
+.grid-item-checkbox {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 0px;
+  text-align: left;
+}
