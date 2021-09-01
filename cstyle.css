@@ -1,6 +1,7 @@
 @import url("https://use.typekit.net/way7gmx.css");
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&display=swap');
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
 @font-face {
     font-family: 'Helvetica-Now';
     src: url('Helvetica-Now.woff') format('woff'); /* Modern Browsers */
@@ -34,8 +35,7 @@
 }
 
 body {
-  font-family:'Helvetica-Now-R','SpoqaHanSansNeo', sans-serif;
-  font-weight: 400;
+  font-family:'Helvetica-Now-R','Spoqa Han Sans Neo', sans-serif;
   opacity: 0;
   transition: opacity .5s;
 }
@@ -133,7 +133,7 @@ main {
   display: block;
   margin: auto;
   padding: 0 5%;
-  font-family: 'Helvetica-Now-R', 'SpoqaHanSansNeo', sans-serif;
+  font-family: 'Helvetica-Now-R', 'Spoqa Han Sans Neo', sans-serif;
   word-break: keep-all;
 }
 
@@ -181,13 +181,13 @@ main {
 
   .sec {
     padding: 15px 0 10px;
-    font-family: 'Helvetica-Now-R', 'SpoqaHanSansNeo', sans-serif;
+    font-family: 'Helvetica-Now-R', 'Spoqa Han Sans Neo', sans-serif;
     font-size: 22px;
     line-height: 35px;
   }
   .txt {
     padding-bottom: 80px;
-    font-family: 'SpoqaHanSansNeo', sans-serif;
+    font-family: 'Spoqa Han Sans Neo', sans-serif;
   }
   .btn {
     background-color: #fff;
@@ -330,7 +330,28 @@ main {
   .sns_mobile li {
     margin: 0px 16px;
   }
+
+
+  .left {
+    width: 100%;
+  }
+  .right {
+    width: 100%;
+  }
+  .btn {
+    display: block;
+    margin-left: 0;
+    margin-top: 7px;
+  }
+  .left {
+    margin-bottom: 70px;
+  }
+  .left p {
+    max-width: 100%;
+  }
+
 }
+
 
 @media (max-width: 1078px){
   .nav_links {
